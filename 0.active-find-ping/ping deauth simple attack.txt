@@ -1,0 +1,26 @@
+ping deauth attack fundamental importent concept
+******************************
+
+
+icmp >> internet control message protocol
+
+cmd  >> ping google.com -l 6000 -t
+
+
+
+=============================================================================================================================================
+
+
+
+ping google.com        <<   this commands put on terminal too show on wireshark  overall request like on dns and icmp packets
+ 
+  
+
+
+or ping 140.215.123.41  << through show by icmp packets
+
+
+===================================================================
+
+wireshark  :   https://www.wireshark.org/download.html
+

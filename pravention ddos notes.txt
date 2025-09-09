@@ -1,0 +1,27 @@
+production of the ddos attec like prevension
+
+
+
+1. https://dash.cloudflare.com/dc33cdbde93464d67c3eaf77c658e1d5/home/domains
+
+2. https://one.one.one.one/          download application
+
+
+3. proton vpn
+
+4. firewalls like soft/hard
+
+5. antivirurs >> bitdefender
+
+
+common using steps on companys 
+
+
+like: 
+
+1. Rate limits
+2. use WAF >> web app firewall  >>> soft/hard
+3. load balancing
+4. GEO Blocking
+5. DDOS Detection
+6. Bot Protection

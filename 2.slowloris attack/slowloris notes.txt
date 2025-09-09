@@ -1,0 +1,17 @@
+3. slowloris  tool
+
+
+????????????   kali rolling   ops
+
+
+>>>  python3 slowloris.py aaaenggcoll.ac.in    
+
+
+notes: https://copilot.microsoft.com/chats/gXDWHdiP1m62hQBdyK6E6
+
+download site : https://github.com/gkbrk/slowloris
+
+
+
+
+how those work flow on   :     https://www.cloudflare.com/en-in/learning/ddos/ddos-attack-tools/slowloris/

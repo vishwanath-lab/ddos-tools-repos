@@ -1,0 +1,67 @@
+HULK tool
+
+ai guidencess : https://copilot.microsoft.com/chats/FZSgM9hHdPRA638V5rjb7
+
+======================================================================================
+
+⚙️ Installation Steps (Linux / Kali / Ubuntu)
+🔗 1. Download the Tool
+You can grab the source from GitHub:
+
+
+git clone https://github.com/R3DHULK/HULK.git
+cd HULK
+
+Or download the ZIP:
+
+bash
+wget https://github.com/grafov/hulk/archive/master.zip
+unzip master.zip
+cd hulk-master
+
+
+
+🐍 2. Install Python & Dependencies
+Make sure Python is installed:
+
+sudo apt update && sudo apt install python3 python3-pip -y
+
+Install required modules:
+
+pip3 install -r requirements.txt
+
+
+If you hit a externally-managed-environment error, use:
+
+bash
+sudo apt install python3-scapy python3-django python3-tkinter
+
+
+sudo python3 hulk.py http://192.168.0.80:80/
+
+You can monitor traffic using Wireshark or tcpdump:
+
+# wireshark 
+
+
+Edit in a page
+whis osi layer this preforming
+Great question, Vishwanath 👨‍💻. The HULK DDoS tool operates primarily at the Application Layer (Layer 7) of the OSI model.
+
+🧩 OSI Layer Breakdown for HULK
+Layer	Name	Role in HULK Attack
+7	Application	✅ Targeted by HULK — sends HTTP GET requests
+6	Presentation	Not directly involved
+5	Session	Indirectly used to maintain HTTP sessions
+4	Transport (TCP)	Used for TCP connections (via HTTP)
+3	Network (IP)	Routes packets, but not manipulated by HULK
+2	Data Link	Not involved
+1	Physical	Not involved
+🧠 Why Layer 7?
+HULK floods the server with unique HTTP requests, mimicking real users.
+
+It bypasses caching and overloads web applications, not just the network.
+
+This makes it harder to detect using traditional Layer 3/4 firewalls or rate-limiters.
+
+If you're exploring bypass techniques or payload refinement, Layer 7 tools like HULK are ideal for testing WAFs, reverse proxies, and load balancers.
